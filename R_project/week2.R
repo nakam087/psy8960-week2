@@ -1,5 +1,5 @@
 #Import and Labeling
-rt_df <- read.csv(file = 'data/week2.csv', header = T)
+rt_df <- read.csv(file = 'data_proj2/week2.csv', header = T)
 factor(rt_df$condition, levels=c("A", "B"), labels=c("Control", "Experimental"))
 factor(rt_df$gender, levels=c("M", "F", "N"), labels=c("Male", "Female", "Nonbinary"))
 
