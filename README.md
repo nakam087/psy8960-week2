@@ -22,4 +22,4 @@ each number refers to the line in R
 8. rt_f_df <- subset(rt_df, gender == "Female") or rt_f_df <-[rt_df$gender == "Female",]
 9. hist(rt_f_df$rt)
 10. datasets <- list(rt_df, rt_f_df)
-11. datasets[[1]][2]
+11. datasets[[1]][2] #extracts the first item of the list and then extracts the second item in the dataframe, returns a dataframe
